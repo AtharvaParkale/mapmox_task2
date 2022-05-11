@@ -99,7 +99,17 @@
 .graph_head span{
     color: red;
 }
-
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 253, 253);
+    margin-top: 2vh;
+    
+}
+.stats p{
+    margin-left: 4vh;
+}
 
 @media(max-width:650px){
     .search_kit{
