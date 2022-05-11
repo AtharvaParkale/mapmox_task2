@@ -1,0 +1,175 @@
+.search_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+}
+.search_tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin-top: 15vh;
+    font-size: 21px;
+    height: 39vh;
+    overflow: hidden;
+}
+.search_kit{
+    /* border: 2px solid black; */
+}
+.search_tools input{
+    height: 50px;
+    width: 390px;
+    margin-right:6vh ;
+    border-radius: 7px;
+    font-size: 21px;
+    padding-left: 2vh;
+}
+.search_tools option{
+    /* background-color: red; */
+}
+.search_tools select{
+    height: 50px;
+    width: 390px;
+    margin-right:6vh ;
+    border-radius: 7px;
+    font-size: 21px;
+    padding-left: 2vh;
+}
+.search_tools button{
+    color: white;
+    height: 56px;
+    font-size: 21px;
+    width: 210px;
+    font-weight: 700;
+    background-color:#E04D01 ;
+    border: none;
+    border-radius: 7px;
+}
+.search_tools button:hover{
+    font-size: 22px ;
+    /* box-shadow: 20px 20px 50px rgb(0, 0, 0); */
+    
+    cursor: pointer;
+}
+.graph_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    margin-top:7vh ;
+    flex-direction: column;
+}
+.graph_container p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.graph_head {
+    /* border: 2px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+} 
+.graph_head button{
+    margin-left: 4vh;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.graph_head button:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.graph_head p{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.graph_head span{
+    color: red;
+}
+
+
+@media(max-width:650px){
+    .search_kit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .search_kit select{
+        margin: 0;
+        margin-top: 2vh;
+        font-size: 20px;
+        width: 250px;
+    }
+    .search_kit option{
+        /* font-size: 2px; */
+        width: 2vh;
+    }
+    .search_container h1{
+        font-size: 38px;
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    .search_kit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .search_kit select{
+        margin: 0;
+        margin-top: 2vh;
+        font-size: 15px;
+        width: 200px;
+    }
+    .search_kit option{
+        /* font-size: 2px; */
+        width: 150px;
+    }
+    .search_container h1{
+        font-size: 33px;
+    }
+    .search_kit button{
+        font-size: 18px;
+    }
+    .graph_container p{
+        font-size: 18px;
+    }
+    .graph_head button{
+        font-size: 13px;
+        margin-left: 1vh;
+    }
+}
+@media(max-width:380px){
+   
+    .search_kit select{
+        margin: 0;
+        margin-top: 2vh;
+        font-size: 13px;
+        width: 200px;
+    }
+    .search_kit button{
+        font-size: 18px;
+    }
+    .search_kit option{
+        /* font-size: 2px; */
+        width: 150px;
+    }
+    .search_container h1{
+        font-size: 30px;
+    }
+}
